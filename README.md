@@ -24,11 +24,3 @@
 - Search Post
 - Notification
 
-### Coming Features
-- Individual Messaging
-- Improve Auth validation
-- Lazy loading
-- Auto scroll to bottom
-- Add follow system
-- Add Save post
-- Add share post link
