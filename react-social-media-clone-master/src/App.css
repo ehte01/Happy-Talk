@@ -1,0 +1,231 @@
+@import "~antd/dist/antd.css";
+
+body {
+  background: #f0f2f5 !important;
+  /* font-family: "Raleway", sans-serif !important; */
+  font-family: "Inter", sans-serif !important;
+  user-select: none;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+.App {
+  min-height: 100vh;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* ---------------------------- */
+/* Side bar */
+/* ---------------------------- */
+.site-layout-background {
+  background: #fff;
+}
+.logo {
+  background: rgba(255, 255, 255, 0.2);
+  margin: 7px;
+  font-weight: bold;
+  transition: all 0.01s !important;
+  text-align: center;
+}
+.ant-layout {
+  background: #f0f2f5;
+}
+.ant-menu {
+  height: 100vh;
+  transition: all 0.01s !important;
+}
+.ant-menu-item {
+  display: flex;
+  align-items: center;
+}
+.ant-layout-sider-children {
+  background: transparent;
+  position: fixed;
+  max-width: 200px;
+}
+.ant-layout-sider-trigger {
+  background: #181a1d48;
+}
+.ant-menu-inline {
+  min-width: 199px;
+  border-right: none;
+}
+.ant-menu-inline .ant-menu-item {
+  color: black;
+}
+.ant-menu-item-selected {
+  color: #1890ff !important;
+}
+.ant-menu-inline-collapsed {
+  width: 81px;
+}
+
+a:hover {
+  color: inherit !important;
+  text-decoration: none !important;
+}
+/* ---------------------------- */
+/* Header */
+/* ---------------------------- */
+.ant-layout-header {
+  height: 42px;
+  background-color: #f0f2f5;
+  line-height: 40px;
+}
+/* ---------------------------- */
+/* Content */
+/* ---------------------------- */
+
+.ant-divider-horizontal {
+  margin: 10px 0;
+}
+
+.ant-card-body {
+  padding: 10px;
+  padding-top: 15px;
+  margin-bottom: 20px;
+}
+.actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.tab__card {
+  min-height: 500px;
+}
+
+.anticon {
+  cursor: pointer !important;
+}
+
+.post-form {
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+  background-color: #f0f2f5 !important;
+  margin-bottom: 7px;
+  resize: none;
+  font-size: 14px !important;
+}
+
+.ant-modal-close-x {
+  display: none !important;
+}
+/* ---------------------------- */
+/* Right Sider */
+/* ---------------------------- */
+
+/* content */
+
+.ant-badge-count {
+  min-width: 7px !important;
+  height: 14px !important;
+  padding: 0 5px !important;
+  font-size: 8px !important;
+  line-height: 15px !important;
+}
+
+.ant-card-meta-detail > div:not(:last-child) {
+  margin-bottom: -2px !important;
+}
+
+.post__modal .ant-modal-footer {
+  display: none !important;
+}
+/* .ant-modal-body {
+  position: relative;
+}
+.ant-modal-body .comment-form {
+  position: absolute;
+  bottom: 0;
+  display: block;
+  width: 406px !important;
+  background-color: white;
+  margin-bottom: 41px;
+} */
+.ant-modal-body {
+  position: relative;
+}
+
+.comment-form {
+  position: sticky;
+  bottom: 0px;
+  padding-bottom: 2px;
+  display: block;
+  background-color: white;
+  height: 50px;
+}
+
+.ant-comment-inner {
+  padding: 5px 0 !important;
+}
+
+.ant-card-meta-description {
+  color: black;
+}
+.ant-card-meta-title {
+  font-weight: bold;
+}
+
+/* Alert */
+.ant-alert {
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+/* message */
+.message {
+  /* margin-left: 40px; */
+  margin-bottom: 10px;
+}
+
+.message__body {
+  /* float: right; */
+  /* border: 1px solid gray; */
+  border-radius: 25px;
+  padding: 8px 15px;
+  margin-bottom: 5px;
+}
+
+.custom_bg {
+  background-color: #1890ff24;
+  margin-left: 120px;
+}
+.message__image {
+  height: 50px;
+  width: 50px;
+  margin-right: 7px;
+}
+
+.mesage__info > p {
+  margin-bottom: 0;
+}
+.message__form {
+  width: 90%;
+  margin-left: -20px;
+  position: fixed;
+  bottom: 0;
+  background-color: white;
+  height: 50px;
+}
+
+.form-control:focus {
+  box-shadow: none !important;
+}
+
+.form-control {
+  border: transparent !important;
+  margin-top: 8px !important;
+}
+
+.profile__image {
+  height: 200px !important;
+  width: 200px !important;
+}
+.others__info {
+  width: 235px;
+  margin: auto;
+  text-align: center;
+}
