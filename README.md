@@ -1,7 +1,4 @@
 
-## React Social Media Clone
-### <a href="https://react-mukh-boi-project.web.app/">Deployed Site</a>
-
 #### Technology
 - React
 - Redux
